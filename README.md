@@ -31,7 +31,7 @@ Update the `Web.config` file with your database connection string:
    
 Ensure the database has a table named "Forms".
 You can create this table using the following SQL script:
-   ```sql
+```sql
    CREATE TABLE Forms (
     id INT PRIMARY KEY IDENTITY,
     email NVARCHAR(320) NOT NULL,
@@ -40,8 +40,7 @@ You can create this table using the following SQL script:
     subject NVARCHAR(50) NOT NULL,
     message NVARCHAR(MAX) NOT NULL
 	);
-	```
-	
+```
 3. **Build and run the project in Visual Studio.**
 
 ## Validation and Error Handling
@@ -52,5 +51,4 @@ Displays success or error messages based on the outcome of form submissions and 
 ## Notes
 
 Most of the code is explained within the project using comments. Please refer to the inline comments.
-
 
