@@ -41,6 +41,7 @@ You can create this table using the following SQL script:
     message NVARCHAR(MAX) NOT NULL
 	);
 	```
+	
 3. **Build and run the project in Visual Studio.**
 
 ## Validation and Error Handling
